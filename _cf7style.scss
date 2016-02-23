@@ -1,7 +1,17 @@
-.wpcf7-validation-errors {
+.wpcf7-validation-errors, .wpcf7-mail-sent-ok, .ajax-loader {
   // hide general validation message at the bottom of the form
 
   display: none !important;
+  visibility: hidden !important;
+}
+
+.wpcf7-mail-sent-ng{
+  // style error message when form doesn't send
+
+  border: 1px $redfrom solid !important;
+  background: $redfrom;
+  color: #fff;
+  padding: 10px 20px !important;
 }
 
 .wpcf7-form-control-wrap {
