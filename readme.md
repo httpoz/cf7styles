@@ -21,4 +21,4 @@ Just include the `cf7style.js` file along with your other javascript files.
 ### Live coding video
 Find the live coding video here and watch how I made the styling
 
-[OzzyOz LiveCodingTV](http://livecoding.tv/ozzyoz/)
+[OzzyOz LiveCodingTV](https://www.livecoding.tv/ozzyoz/videos/NpyjO-customizing-contact-form-7-validation-errors)
