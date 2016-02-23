@@ -1,0 +1,38 @@
+.wpcf7-validation-errors {
+  // hide general validation message at the bottom of the form
+
+  display: none !important;
+}
+
+.wpcf7-form-control-wrap {
+  // element wrapped around every form input
+  display: block;
+
+
+  .wpcf7-not-valid-tip{
+    // the actual validation object we want to customise
+
+    // overriding default styling and hacky deleting the object
+    top: 0 !important;
+    left: auto !important;
+    right: 0 !important;
+    border: none !important;
+    color: transparent !important;
+    background: transparent !important;
+
+    // creating the error icon
+    &:before{
+      content: '';
+      position: absolute;
+      width: 22px;
+      height: 20px;
+      right: 10px;
+      top: 6px;
+      background: {
+        image: url('icon-error.png');
+        repeat: no-repeat;
+        size: 100% 100%;
+      }
+    }
+  }
+}
