@@ -8,8 +8,8 @@
 .wpcf7-mail-sent-ng{
   // style error message when form doesn't send
 
-  border: 1px $redfrom solid !important;
-  background: $redfrom;
+  border: 1px darkred solid !important;
+  background: darkred;
   color: #fff;
   padding: 10px 20px !important;
 }
